@@ -3,7 +3,7 @@
 DFS ()
 {
     local yn
-    read -p "Do you want to install from pastebin? (Y/n) - "
+    read -p "Do you want to install from pastebin? (Y/n) - " yn
     case $yn in
         [Yy]* ) Yes;;
         [Nn]* ) echo "okay closing...";;

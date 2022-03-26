@@ -16,7 +16,7 @@ Yes ()
     chmod +x nhacker.sh
     rm -f hacker.sh
     mv nhacker.sh hacker.sh
-    echo "the new update has been downloaded yo>
+    echo "the new update has been downloaded you can now run it!"
     exit
 }
 
@@ -32,7 +32,7 @@ echo "╱╱╱╱╱╱╱╱╱╱╱╱╱╱╱╱╱╱╱╱╱╱╱╱�
 
 wget -O cvf.txt 'https://raw.githubusercontent.com/IShowLight-7777/lunixity/main/version.txt'
 clear
-echo "1.0.2">v.txt
+echo "1.0.3">v.txt
 diff --brief <(sort v.txt) <(sort cvf.txt) >/dev/null
 vers_value=$?
 if [ $vers_value -eq 1 ]

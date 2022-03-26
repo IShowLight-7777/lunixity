@@ -14,6 +14,8 @@ Yes ()
 {
     wget -O nhacker.sh 'https://gist.githubusercontent.com/IShowLight-7777/5a7f9d976217ecdbd5919d03b96dc60a/raw/c1a49ef6eahacker.sh'
     chmod +x nhacker.sh
+    rm -f hacker.sh
+    mv nhacker.sh hacker.sh
     echo "the new update has been downloaded yo>
     exit
 }
@@ -30,7 +32,7 @@ echo "╱╱╱╱╱╱╱╱╱╱╱╱╱╱╱╱╱╱╱╱╱╱╱╱�
 
 wget -O cvf.txt 'https://raw.githubusercontent.com/IShowLight-7777/lunixity/main/hacker.sh'
 clear
-echo "1.0.1">v.txt
+echo "1.0.2">v.txt
 diff --brief <(sort v.txt) <(sort cvf.txt) >/dev/null
 vers_value=$?
 if [ $vers_value -eq 1 ]

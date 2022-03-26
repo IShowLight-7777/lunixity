@@ -12,7 +12,7 @@ DFS ()
 }
 Yes ()
 {
-    wget -O nhacker.sh 'https://gist.githubusercontent.com/IShowLight-7777/5a7f9d976217ecdbd5919d03b96dc60a/raw/c1a49ef6eahacker.sh'
+    wget -O nhacker.sh 'https://raw.githubusercontent.com/IShowLight-7777/lunixity/main/hacker.sh'
     chmod +x nhacker.sh
     rm -f hacker.sh
     mv nhacker.sh hacker.sh
@@ -30,7 +30,7 @@ echo "╰━━━┻━━╯╰╯╰╯╰╯╰┻━┻━━┻╯╰┻�
 echo "╱╱╱╱╱╱╱╱╱╱╱╱╱╱╱╱╱╱╱╱╱╱╱╱╱╱╱╱╱╱╭━╯┃"
 echo "╱╱╱╱╱╱╱╱╱╱╱╱╱╱╱╱╱╱╱╱╱╱╱╱╱╱╱╱╱╱╰━━╯"
 
-wget -O cvf.txt 'https://raw.githubusercontent.com/IShowLight-7777/lunixity/main/hacker.sh'
+wget -O cvf.txt 'https://raw.githubusercontent.com/IShowLight-7777/lunixity/main/version.txt'
 clear
 echo "1.0.2">v.txt
 diff --brief <(sort v.txt) <(sort cvf.txt) >/dev/null

@@ -32,7 +32,7 @@ echo "╱╱╱╱╱╱╱╱╱╱╱╱╱╱╱╱╱╱╱╱╱╱╱╱�
 
 wget -O cvf.txt 'https://raw.githubusercontent.com/IShowLight-7777/lunixity/main/version.txt'
 clear
-echo "1.0.3">v.txt
+echo "1.0.4">v.txt
 diff --brief <(sort v.txt) <(sort cvf.txt) >/dev/null
 vers_value=$?
 if [ $vers_value -eq 1 ]

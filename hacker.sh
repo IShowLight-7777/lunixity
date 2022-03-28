@@ -3,7 +3,7 @@
 DFS ()
 {
     local yn
-    read -p "Do you want to install from pastebin? (Y/n) - " yn
+    read -p "Do you want to install from GitHub? (Y/n) - " yn
     case $yn in
         [Yy]* ) Yes;;
         [Nn]* ) echo "okay closing...";;
@@ -48,7 +48,7 @@ else
     echo "the file version is up to-date!"
     rm -f cvf.txt
     rm -f v.txt
-    break
+
 fi
 echo "loading..."
 sleep 3
@@ -59,10 +59,6 @@ echo "┃┃┃┃┃┣━━┫┃╭━━┳━━┳╮╭┳━━╮"
 echo "┃╰╯╰╯┃┃━┫┃┃╭━┫╭╮┃╰╯┃┃━┫"
 echo "╰╮╭╮╭┫┃━┫╰┫╰━┫╰╯┃┃┃┃┃━┫"
 echo "╱╰╯╰╯╰━━┻━┻━━┻━━┻┻┻┻━━╯"
-a=1
-sp="/-\|"
-echo -n ' '
-while true
-do
-    printf "\b${sp:a++%${#sp}:1}"
-done
+sleep 3
+clear
+echo ZWNobyAiSSIKc2xlZXAgMC4yCmNsZWFyCmVjaG8gIklTIgpzbGVlcCAwLjIKY2xlYXIKZWNobyAiSVNoIgpzbGVlcCAwLjIKY2xlYXIKZWNobyAiSVNobyIKc2xlZXAgMC4yCmNsZWFyCmVjaG8gIklTaG93IgpzbGVlcCAwLjIKY2xlYXIKZWNobyAiSVNob3dMIgpzbGVlcCAwLjIKY2xlYXIKZWNobyAiSVNob3dMaSIKc2xlZXAgMC4yCmNsZWFyCmVjaG8gIklTaG93TGlnIgpzbGVlcCAwLjIKY2xlYXIKZWNobyAiSVNob3dMaWdoIgpzbGVlcCAwLjIKY2xlYXIKZWNobyAiSVNob3dMaWdodCIKc2xlZXAgMC4zCmNsZWFyCmVjaG8gIklTaG93TGlnaHQiCnNsZWVwIDAuMwpjbGVhcgplY2hvICJJU2hvd0xpZ2h0Ig== | base64 --decode

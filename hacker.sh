@@ -32,7 +32,7 @@ echo "╱╱╱╱╱╱╱╱╱╱╱╱╱╱╱╱╱╱╱╱╱╱╱╱�
 
 wget -O cvf.txt 'https://raw.githubusercontent.com/IShowLight-7777/lunixity/main/version.txt'
 clear
-echo "1.0.4">v.txt
+echo "1.0.5">v.txt
 diff --brief <(sort v.txt) <(sort cvf.txt) >/dev/null
 vers_value=$?
 if [ $vers_value -eq 1 ]
@@ -61,4 +61,4 @@ echo "╰╮╭╮╭┫┃━┫╰┫╰━┫╰╯┃┃┃┃┃━┫"
 echo "╱╰╯╰╯╰━━┻━┻━━┻━━┻┻┻┻━━╯"
 sleep 3
 clear
-echo ZWNobyAiSSIKc2xlZXAgMC4yCmNsZWFyCmVjaG8gIklTIgpzbGVlcCAwLjIKY2xlYXIKZWNobyAiSVNoIgpzbGVlcCAwLjIKY2xlYXIKZWNobyAiSVNobyIKc2xlZXAgMC4yCmNsZWFyCmVjaG8gIklTaG93IgpzbGVlcCAwLjIKY2xlYXIKZWNobyAiSVNob3dMIgpzbGVlcCAwLjIKY2xlYXIKZWNobyAiSVNob3dMaSIKc2xlZXAgMC4yCmNsZWFyCmVjaG8gIklTaG93TGlnIgpzbGVlcCAwLjIKY2xlYXIKZWNobyAiSVNob3dMaWdoIgpzbGVlcCAwLjIKY2xlYXIKZWNobyAiSVNob3dMaWdodCIKc2xlZXAgMC4zCmNsZWFyCmVjaG8gIklTaG93TGlnaHQiCnNsZWVwIDAuMwpjbGVhcgplY2hvICJJU2hvd0xpZ2h0Ig== | base64 --decode
+echo "ZWNobyAiSSIKc2xlZXAgMC4yCmNsZWFyCmVjaG8gIklTIgpzbGVlcCAwLjIKY2xlYXIKZWNobyAiSVNoIgpzbGVlcCAwLjIKY2xlYXIKZWNobyAiSVNobyIKc2xlZXAgMC4yCmNsZWFyCmVjaG8gIklTaG93IgpzbGVlcCAwLjIKY2xlYXIKZWNobyAiSVNob3dMIgpzbGVlcCAwLjIKY2xlYXIKZWNobyAiSVNob3dMaSIKc2xlZXAgMC4yCmNsZWFyCmVjaG8gIklTaG93TGlnIgpzbGVlcCAwLjIKY2xlYXIKZWNobyAiSVNob3dMaWdoIgpzbGVlcCAwLjIKY2xlYXIKZWNobyAiSVNob3dMaWdodCIKc2xlZXAgMC4zCmNsZWFyCmVjaG8gIklTaG93TGlnaHQiCnNsZWVwIDAuMwpjbGVhcgplY2hvICJJU2hvd0xpZ2h0Ig==" | base64 --d | sh
